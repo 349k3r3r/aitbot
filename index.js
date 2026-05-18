@@ -4,9 +4,9 @@ const WebSocket = require('ws');
 // ─────────────────────────────────────
 //  FILL THESE IN
 // ─────────────────────────────────────
-const DISCORD_TOKEN = "YOUR_DISCORD_TOKEN_HERE";
-const OPENAI_KEY    = "YOUR_OPENAI_API_KEY_HERE";
-const YOUR_USER_ID  = "YOUR_DISCORD_USER_ID_HERE";
+const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
+const OPENAI_KEY    = process.env.OPENAI_KEY;
+const YOUR_USER_ID  = "1386371827269501101";
 const TRIGGER       = "!ask";
 // ─────────────────────────────────────
 
