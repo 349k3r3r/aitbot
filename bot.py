@@ -993,6 +993,7 @@ class MercyView(discord.ui.View):
 
 
 MERCY_ROLES = [
+    ROLE["middleman"],
     ROLE["moderator"],
     ROLE["head_mod"],
     ROLE["lead_coord"],
